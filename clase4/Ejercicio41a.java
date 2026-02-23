@@ -7,9 +7,9 @@ public class Ejercicio41a {
         Scanner sc = new Scanner(System.in);
         // PEDIR EL ANGULO
         System.out.println("dijite el ANGULO");
-        int ANGULO = sc.nextInt();
+        int A = sc.nextInt();
         // condicional
-        if (ANGULO == 90) {
+        if (A == 90) {
             System.out.println("el ANGULO es un ANGULO recto");
 
         } else {
