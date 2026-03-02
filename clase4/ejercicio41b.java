@@ -10,12 +10,12 @@ public class ejercicio41b {
         Scanner sc = new Scanner(System.in);
         System.out.println("digite la temperatura");
         int temp = sc.nextInt();
-        if (temp >=100) {
+        if (temp >= 100) {
             System.out.println("punto ebullicion");
-        }else{
+        } else {
             System.out.println("no esta en el punto de ebullicion");
         }
         sc.close();
     }
-    
+
 }
