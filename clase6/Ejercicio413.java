@@ -20,7 +20,7 @@ public class Ejercicio413 {
         System.out.println("2. Multiplicacion");
         System.out.println("3. Division");
         seleccion = sc.nextInt();
-
+        /* 
         switch (seleccion) {
 
             case 1:
@@ -38,8 +38,15 @@ public class Ejercicio413 {
             default:
                 System.out.println("Opcion no valida");
         }
-
-        sc.close();
-    }
-}
+             }/* */
+     switch (seleccion) {
+     case 1-> System.out.println("La suma es: " + (num1 + num2));
+     case 2 -> System.out.println("La multiplicación es: " + (num1 * num2)); 
+     case 3-> System.out.println("La división es: " + (num1 / num2)); 
+     default -> System.out.println("Opción no valida");
+        
     
+    }
+    sc.close();
+ }
+}
